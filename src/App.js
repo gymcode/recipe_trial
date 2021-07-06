@@ -1,12 +1,12 @@
 import './App.css';
+import {BrowserRouter as Router, route} from 'react-router-dom'
+import {route} from './routes'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
+      <Router>
+        {route.map((data)=>{console.log(data)})}
+      </Router>
   );
 }
 
