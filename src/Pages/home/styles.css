@@ -1,0 +1,8 @@
+.container {
+    height: 20vh;
+    background-color: red;
+}
+
+.mainSection {
+    display: flex;
+}
