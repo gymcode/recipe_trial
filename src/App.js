@@ -1,13 +1,13 @@
+import React from 'react'
 import './App.css';
-import {BrowserRouter as Router, route} from 'react-router-dom'
-import {route} from './routes'
+import Service from './services'
 
 function App() {
   return (
-      <Router>
-        {route.map((data)=>{console.log(data)})}
-      </Router>
-  );
+      <React.Fragment>
+        <Service/>
+      </React.Fragment>
+  )
 }
 
 export default App;

@@ -1,5 +1,6 @@
-// importing all components 
+import {lazy} from 'react'
 
+// importing all components 
 import HomeComponent from '../Pages/home'
 import RecipeComponent from '../Pages/recipe'
 
@@ -8,11 +9,13 @@ const routes = [
         path: "/", 
         exact: true, 
         component: HomeComponent, 
-        name: Home
+        name: "Home"
     }, 
     {
         path: "/recipes", 
-        exact: true, 
-        component: RecipeComponent
+        component: RecipeComponent, 
+        name: "Recipe"
     }
 ]
+
+export default routes
