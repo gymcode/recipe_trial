@@ -6,9 +6,9 @@ const MainComponent = ()=>{
         <div className={"container"}>
             {/* main section  */}
             <div className={"mainSection"}>
-                <div style={{flex: 2}}>dsdas</div>
-                <div style={{flex: 5}}>das</div>
-                <div style={{flex: 3}}>das</div>
+                <div className={"subSection1"}>dsdas</div>
+                <div className={"subSection2"}>das</div>
+                <div className={"subSection3"}>das</div>
             </div>
         </div>
     )

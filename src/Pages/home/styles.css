@@ -1,8 +1,22 @@
 .container {
     height: 100vh;
-    background-color: red;
 }
 
 .mainSection {
     display: flex;
 }
+
+.subSection1{
+    flex: 2;
+    height: 100vh;
+    -webkit-box-shadow: 17px 2px 34px -8px rgba(0,0,0,0.05); 
+    box-shadow: 17px 2px 34px -8px rgba(0,0,0,0.05);
+}
+
+.subSection2{
+    flex: 5
+}
+
+.subSection3{
+    flex: 3
+}   
