@@ -3,7 +3,7 @@ import React from 'react'
 const MainComponent = ()=>{
     return (
         <div>
-            hello recipe
+            hello recipes
         </div>
     )
 }
