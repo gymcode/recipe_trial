@@ -13,7 +13,7 @@ const MainComponent = ()=>{
                      {/* navigation section  */}
                     <Navigation/>
                 </div>
-                <div className={"subSection2"}>second</div>
+                <div className={"subSection2"}>somethings heresome content right here </div>
                 <div className={"subSection3"}>third</div>
             </div>
         </div>
