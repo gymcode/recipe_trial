@@ -14,7 +14,7 @@ const MainComponent = ()=>{
                     <Navigation/>
                 </div>
                 <div className={"subSection2"}>somethings heresome content right here </div>
-                <div className={"subSection3"}>third</div>
+                <div className={"subSection3"}>yeah the same thing right here </div>
             </div>
         </div>
     )

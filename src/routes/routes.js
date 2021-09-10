@@ -1,4 +1,3 @@
-import {lazy} from 'react'
 
 // importing all components 
 import HomeComponent from '../Pages/home'
