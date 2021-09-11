@@ -4,7 +4,7 @@ import './nav.css'
 
 const Navigation = ()=>{
     return (
-        <div>
+        <div className={"nav"}>
             <div>
                 <Link>Overview</Link>
             </div>
